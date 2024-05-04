@@ -1,0 +1,67 @@
+body {
+    background-color: #000000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#player {
+    position: fixed;
+    top: 10px;
+}
+
+main {
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    gap: 15px;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    background: #444;
+    border: 1px solid #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AAA;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.handler {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#winnerDiv {
+    width: 100dvw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+}
+
+img {
+    height: 250px;
+}
+
+#cancelButton {
+    background-color: red;
+    color: white !important;
+    height: 30px;
+    width: 100px;
+}
